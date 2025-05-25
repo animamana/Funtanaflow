@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #333;
+}
+header, footer {
+    background: #008cba;
+    color: white;
+    text-align: center;
+    padding: 1.5em 1em;
+}
+.cta {
+    display: inline-block;
+    background: white;
+    color: #008cba;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+.offerte {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+@media (min-width: 600px) {
+    .offerte {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+h1, h2, h3 {
+    color: #005f73;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+blockquote {
+    background: #e0f7fa;
+    padding: 1em;
+    border-left: 5px solid #008cba;
+    margin: 1em 0;
+}
